@@ -14,31 +14,34 @@ body {
     height: 400vw;
 }
 
+/*Navigation menu*/
 .topBar{
-    background-color: rgb(240, 218, 179);
-
+    overflow: hidden;
+    background-color: rgba(179, 188, 196, 0.405);
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
-    left: 0;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 17px;
 
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 
-    margin: 0;
-    text-align: center;
-    z-index: 1;
 }
 
-.topBarMenu{
-    background-color: darkblue;
-    color: whitesmoke;
+.topBar a {
+    float: center;
+    display: block;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 17px;
+}
 
-    font-size: calc(0.5vw + 0.5rem);
-    border-radius: 1vw;
-    
-    padding: 0.2rem;
+.topBar a:hover{
+    background: rgba(179, 188, 196, 0.405);
+    color: bisque;
 }
 
 /*Inforgaphic*/
