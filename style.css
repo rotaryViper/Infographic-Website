@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgba(185, 211, 226, 0.57) ;
+    background-color: rgba(230, 208, 171, 0.652);
     text-align: left;
     color: rgba(0, 0, 0, 100);
 
@@ -15,7 +15,7 @@ body {
 }
 
 .topBar{
-    background-color: darkslategray;
+    background-color: rgb(240, 218, 179);
 
     position: fixed;
     width: 100vw;
@@ -32,13 +32,22 @@ body {
 }
 
 .topBarMenu{
-    background-color: darkblue;
+    background-color: rgb(255, 255, 255);
     color: whitesmoke;
 
     font-size: calc(0.5vw + 0.5rem);
     border-radius: 1vw;
     
     padding: 0.2rem;
+}
+/*Inforgaphic*/
+
+.Infographic {
+    flex: 45%;
+    float: left;
+    width: 80%;
+    margin-top: 30px;
+    height: 150px;
 }
 
 .corkY{
@@ -48,14 +57,22 @@ body {
     height: auto;
 }
 
-.leftSearchBar{
+.rightContentBar{
     position: absolute;
-    left: 0;
+    right: 0;
     top: calc(0.5vw + 1.5rem);
-    width: 25vw;
+    width: 20vw;
     height: 100vw;
     background-color: green;
 }
+
+/*Contents Area*/
+.contents {
+    flex: middle;
+}
+
+
+
 /* Flexbox Template
 body{
     background-color: black;
