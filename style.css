@@ -21,7 +21,7 @@ html{
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: spac -even;
+    justify-content: space-between;
     text-align: center;
 
     font-family: aileron, 'Times New Roman', serif;
