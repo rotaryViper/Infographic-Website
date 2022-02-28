@@ -45,7 +45,7 @@ Infographic Start
 
 .infographic{
     position: absolute;
-    width: 70rem;
+    width: 55rem;
     height: auto;
     top: 3rem;
     left: 0;
@@ -61,10 +61,10 @@ Infographic Start
 }
 
 .topBar:first-child {
-    margin-left: 1rem;
+    padding-left: 1rem;
 }
 .topBar:last-child {
-    margin-right: 1rem;
+    padding-right: 1rem;
 }
 /*
 .topBar a {
