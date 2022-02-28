@@ -15,7 +15,7 @@ html{
     left: 0;
     width: 100%;
     height: 3rem;
-    background-color: rgb(205, 255, 255);
+    background-color: rgb(190, 233, 233);
 
     z-index: 1;
 
@@ -50,7 +50,6 @@ Infographic Start
     top: 3rem;
     left: 0;
     image-rendering: smooth, auto;
-    filter: contrast(1.2);
 }
 
 
