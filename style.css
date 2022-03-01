@@ -7,7 +7,7 @@ html{
     font-family: "aileron";
 }
 
-/* Navigation Bar Start*/
+/* Top Bar Start*/
 .topBar{
     position: fixed;
     overflow: hidden;
@@ -37,21 +37,30 @@ html{
 .topBar a {
     align-self: center;
 }
-/*
-Navigation Bar End
+/*Top Bar End
 
-Infographic Start
-*/
-
+Infographic Start*/
 .infographic{
     position: absolute;
     width: 55rem;
-    height: auto;
+    height: 137.5rem;
     top: 3rem;
     left: 0;
     image-rendering: smooth, auto;
 }
+/*Infographic End
 
+Right Bar Start*/
+
+.rightBar{
+    position: absolute;
+    width: 40rem;
+    height: 137.5rem;
+    top: 3rem;
+    left: 55rem;
+
+    background-color: blanchedalmond;
+}
 
 /*Debugging*/
 .topBar a:hover {
