@@ -17,7 +17,7 @@ html{
     height: 3rem;
     background-color: rgb(226, 207, 194);
 
-    z-index: 1;
+    z-index: 2;
 
     display: flex;
     flex-flow: row wrap;
@@ -55,22 +55,90 @@ Infographic Start*/
     left: 0;
 }
 
-.infographic img {
+.infographic > img {
     width: 100%;
     image-rendering: smooth, auto;
 }
 
 .infographic .infographicPDF{
     position: absolute;
-    top: 10vw;
-    left: 10vw;
-    width: 2vw;
-    height: 2vw;
+    top: 5.5vw;
+    left: 46.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
 }
 
-.inforgraphic a:hover div:hover{
-    background-color: black;
+.infographic div{
+    position: absolute;
+    width: 1.1vw;
+    height: 1.1vw;
 }
+
+.infographic div:nth-child(1){
+    top: 2.2vw;
+    left: 0.9vw;
+}
+
+.infographic div:nth-child(2){
+    top: 27.9vw;
+    left: 3vw;
+}
+
+.infographic div:nth-child(3){
+    top: 30.3vw;
+    left: 11.2vw;
+}
+
+.infographic div:nth-child(4){
+    top: 33.5vw;
+    left: 8vw;
+}
+
+.infographic div:nth-child(5){
+    top: 37.7vw;
+    left: 20.1vw;
+}
+
+.infographic div:nth-child(6){
+    top: 39.2vw;
+    left: 19.6vw;
+}
+
+.infographic div:nth-child(7){
+    top: 43.2vw;
+    left: 5.5vw;
+}
+
+.infographic div:nth-child(8){
+    top: 45.2vw;
+    left: 5.8vw;
+}
+
+.infographic div:nth-child(9){
+    top: 46.2vw;
+    left: 10.6vw;
+}
+
+.infographic div:nth-child(10){
+    top: 49vw;
+    left: 11.8vw;
+}
+
+.infographic div:nth-child(11){
+    top: 50.3vw;
+    left: 8.4vw;
+}
+
+.infographic div:nth-child(12){
+    top: 54.8vw;
+    left: 6.8vw;
+}
+/*
+.infographic > div{
+    background-color: black;
+    z-index: 2;
+}
+*/
 /*Infographic End
 
 Right Bar Start*/
@@ -98,6 +166,12 @@ Right Bar Start*/
 .topBar a:hover {
 	background: #ddd;
 	color: black;
+}
+
+.infographic a, .infographic div{
+    background-color: black;
+    z-index: 1;
+    opacity: 0.5;
 }
 /*
 .topBar a {
