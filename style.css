@@ -53,20 +53,46 @@ Infographic Start*/
     height: 137.5vw;
     top: 3rem;
     left: 0;
+}
+
+.infographic img {
+    width: 100%;
     image-rendering: smooth, auto;
+}
+
+.infographic .infographicPDF{
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+    width: 2vw;
+    height: 2vw;
+}
+
+.inforgraphic a:hover div:hover{
+    background-color: black;
 }
 /*Infographic End
 
 Right Bar Start*/
 
 .rightBar{
-    position: absolute;
+    position: fixed;
     width: 45vw;
     height: 137.5vw;
     top: 3rem;
     left: 55vw;
     background-color: blanchedalmond;
 }
+
+.rightBar .title{
+    font-size: 2.5rem;
+}
+
+.rightBar .text{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Right Bar End*/
 
 /*Debugging*/
 .topBar a:hover {
