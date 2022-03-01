@@ -37,11 +37,20 @@ html{
 .topBar a {
     align-self: center;
 }
+
+.topBar a:first-child {
+    transform: translateX(1rem);
+}
+.topBar a:last-child {
+    transform: translateX(-1rem);
+}
 /*Top Bar End
 
 Infographic Start*/
 .infographic{
     position: absolute;
+    width: 55vw;
+    height: 137.5vw;
     top: 3rem;
     left: 0;
     image-rendering: smooth, auto;
@@ -52,8 +61,10 @@ Right Bar Start*/
 
 .rightBar{
     position: absolute;
+    width: 45vw;
+    height: 137.5vw;
     top: 3rem;
-
+    left: 55vw;
     background-color: blanchedalmond;
 }
 
@@ -61,13 +72,6 @@ Right Bar Start*/
 .topBar a:hover {
 	background: #ddd;
 	color: black;
-}
-
-.topBar:first-child {
-    padding-left: 1rem;
-}
-.topBar:last-child {
-    padding-right: 1rem;
 }
 /*
 .topBar a {
