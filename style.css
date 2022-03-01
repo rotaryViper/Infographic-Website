@@ -42,8 +42,6 @@ html{
 Infographic Start*/
 .infographic{
     position: absolute;
-    width: 55vw;
-    height: 137.5vw;
     top: 3rem;
     left: 0;
     image-rendering: smooth, auto;
@@ -54,10 +52,7 @@ Right Bar Start*/
 
 .rightBar{
     position: absolute;
-    width: 45vw;
-    height: 137.5vw;
     top: 3rem;
-    left: 55vw;
 
     background-color: blanchedalmond;
 }
