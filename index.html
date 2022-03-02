@@ -7,7 +7,8 @@
         <link rel="stylesheet" href="ui.css">
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="https://use.typekit.net/dxu6ebq.css"> <!--Aileron Font-->
-        <link rel=""
+        <link rel="stylesheet" href="contentBar.css">
+        <script async src="contentBar.js"></script>
         <script async src="main.js"></script>
     </head>
 
@@ -45,10 +46,19 @@
         <!--Slide out bar-->
 
         <div id="slideOut">
-            <div class=Slideout>
+            <div class=showSlideOut>
                 <div>
                     <p>Contents</p>
                 </div>
+            </div>
+            <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                  <h4 class="modal-title">Hello World!</h4> </div>
+                <div class="modal-body">
+                  <p>One fine body…</p>
+                </div>
+                <div class="modal-footer"> </div>
+              </div>
             </div>
 
             <div class="model-content"
@@ -110,7 +120,7 @@
             >
 
             <!--Text Box On the Right-->
-            <span class=hoverBox>
+            <span class="hoverBox text">
 
             </span>
         </div>

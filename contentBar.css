@@ -12,7 +12,7 @@
 
 /* Display Pull out*/
 
-.Slideout {
+.showSlideOut {
     right: 0px !important;
 }
 
@@ -20,5 +20,51 @@
 /*Tab design*/
 
 .slideOutTab {
-    ma
+    margin-top: 50px;
+    position: abosulute;
+    left: -40px;
+    height: 200px;
+    width: 40px;
+    background: #F2AB34;
+    border-radius: 15px 0px 0px 15px;
 }
+
+.slideOutTab div {
+    text-align: center;
+    position: relative;
+    right: 70px;
+    top: 90px;
+    background: #F2AB34;
+    width: 180px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    writing-mode: lr-tb;
+  }
+}
+
+h1 {font-size:70px;margin-top:-90px}
+
+section:nth-child(2) {
+  background: #7876A0;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+.modal-body {
+  height: 400px;
+}
+
+section {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+ .intro {
+        display: table-cell;
+        vertical-align: middle;
+ 
+      }

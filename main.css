@@ -20,6 +20,8 @@ html{
     height: 137.5vw;
     top: 3rem;
     left: 0;
+
+    --firstText: url()'August 1 2021 - The ascend of prices and the market value of NFTs begins to increase, as the market price of the NFTs reach almost 2 Billion USD by the end of the month. This was the beginning of the NFT empire, that ruled the media for the next year. The top NFT collection, CryptoPunk, began selling for an average of 2.5 Million USD.'
 }
 
 .infographic > img {
@@ -63,6 +65,10 @@ html{
 .infographic div:nth-child(1){
     top: 2.2vw;
     left: 0.9vw;
+}
+
+.infographic div:nth-child(1):hover ~ .hoverBox::after{
+    content: var(--firstText);
 }
 
 .infographic div:nth-child(2){
@@ -205,48 +211,7 @@ html{
     left: 23.6vw;
 }
 
-span{
-    background:#F8F8F8;
-    border: 5px solid #DFDFDF;
-    color: #717171;
-    font-size: 13px;
-    height: 30px;
-    letter-spacing: 1px;
-    line-height: 30px;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    top: -80px;
-    left:-30px;
-    display:none;
-    padding:0 20px;
-    
-}
-span:after{
-    content:'';
-    position:absolute;
-    bottom:-10px; 
-    width:10px;
-    height:10px;
-    border-bottom:5px solid #dfdfdf;
-    border-right:5px solid #dfdfdf;
-    background:#f8f8f8;
-    left:50%;
-    margin-left:-10px;
-    -moz-transform:rotate(45deg);
-    -webkit-transform:rotate(45deg);
-    transform:rotate(45deg);
-}
-p{
-    margin:100px;
-    float:left;
-    position:relative;
-    cursor:pointer;
-}
 
-p:hover span{
-    display:block;
-}
 /*
 .infographic > div{
     background-color: black;
@@ -271,12 +236,12 @@ Right Bar Start*/
     font-size: calc(2vw + 1rem);
 }
 
-.rightBar .text{
-    font-size: calc(2vw + 0.5rem);
+.text{
+    font-size: calc(1vw + 0.2rem);
     font-family: 'Times New Roman', Times, serif;
     padding: 1vw;
 
-    width: 45vw;
+    width: 44vw;
 
 }
 /*Right Bar End
