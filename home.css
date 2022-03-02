@@ -1,5 +1,11 @@
+@font-face {
+    font-family: IBM Plex Mono;
+    src: url(https://fonts.google.com/share?selection.family=IBM%20Plex%20Mono:wght@100)
+}
+
 body {
     background-color: #faf1e2;
+    font-family: "IBM Plex Mono";
 }
 
 .item1 { grid-area: header;}
@@ -23,7 +29,7 @@ body {
 }
 
 p {
-    font-size:20px;
+    font-size:40px;
     text-align:center;
 }
 

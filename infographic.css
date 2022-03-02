@@ -2,9 +2,14 @@ html{
     background-color:rgb(255, 255, 255);
 }
 
+@font-face {
+    font-family: IBM Plex Mono;
+    src: url(https://fonts.google.com/share?selection.family=IBM%20Plex%20Mono:wght@100)
+}
+
 * {
     box-sizing: border-box;
-    font-family: "aileron";
+    font-family: "IBM Plex Mono";
 }
 
 /*Infographic Start*/
