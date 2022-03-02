@@ -45,6 +45,10 @@ html{
     left: 0.9vw;
 }
 
+.infographic div:nth-child(1):hover .hoverBox{
+    content: 'I like planes';
+}
+
 .infographic div:nth-child(2){
     top: 27.9vw;
     left: 3vw;
@@ -222,8 +226,6 @@ Right Bar Start*/
 /*Right Bar End
 
 Display text when hovered*/
-
-
 
 /*Debugging*/
 .topBar a:hover {
