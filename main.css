@@ -41,7 +41,12 @@ html{
     height: 1.1vw;
 }
 
-.infographic div:hover ~ .hoverText1{
+.infographic .hoverBox1:hover ~ .hoverText1{
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.infographic .hoverText2:hover ~ .hoverText2{
     opacity: 1;
     transition-duration: 0.5s;
 }
@@ -61,7 +66,7 @@ html{
 }
 
 .hoverBoxImg{
-    width: 40vw;
+    width: 10vw;
 }
 
 
@@ -83,10 +88,6 @@ html{
 .infographic div:nth-child(4){
     top: 33.5vw;
     left: 8vw;
-}
-
-.infographic div:nth-child(4):hover ~ .hoverBox::after{
-    content: var(--firstText);
 }
 
 .infographic div:nth-child(5){
