@@ -48,7 +48,7 @@ html{
     transition-duration: 0.5s;
 }
 
-.hoverText1, .hoverText2 .hoverText3, .hoverText4{
+.hoverText1, .hoverText2 .hoverText3, .hoverText4, .hoverText5{
     position: fixed;
     width: 44vw;
     height: 137.5vw;
