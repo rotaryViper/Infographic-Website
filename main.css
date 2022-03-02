@@ -43,12 +43,12 @@ html{
     height: 1.1vw;
 }
 
-.infographic div:hover ~ .hoverBox{
+.infographic div:hover ~ .hoverText1{
     opacity: 1;
     transition-duration: 0.5s;
 }
 
-.hoverBox{
+.hoverText1, .hoverText2 .hoverText3, .hoverText4{
     position: fixed;
     width: 44vw;
     height: 137.5vw;
@@ -61,6 +61,11 @@ html{
 
     font-size: calc(2vw + 0.5rem);
 }
+
+.hoverBoxImg{
+    width: 40vw;
+}
+
 
 .infographic div:nth-child(1){
     top: 2.2vw;
