@@ -36,11 +36,8 @@
     top: 90px;
     background: #F2AB34;
     width: 180px;
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
     writing-mode: lr-tb;
-  }
 }
 
 h1 {font-size:70px;margin-top:-90px}
