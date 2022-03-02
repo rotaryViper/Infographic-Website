@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(253, 247, 226, 0.809);
+    background-color: #faf1e2;
 }
 
 .item1 { grid-area: header;}
@@ -75,9 +75,17 @@ hr:after {
 	background-color: rgb(240, 229, 229);
 	position: fixed;
 	top: 0;
+    left:0;
 	width: 100%;
     justify-content: space-evenly;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
 }
+
+
   
 .navbar a {
 	float: left;
@@ -87,4 +95,6 @@ hr:after {
 	padding: 25px 30px;
 	text-decoration: none;
 	font-size: 20px;
+    align-self: center;
+
 }
