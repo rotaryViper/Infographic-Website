@@ -133,6 +133,66 @@ Infographic Start*/
     top: 54.8vw;
     left: 6.8vw;
 }
+
+.infographic div:nth-child(13){
+    top: 62.8vw;
+    left: 4.6vw;
+}
+
+.infographic div:nth-child(14){
+    top: 67.2vw;
+    left: 14.1vw;
+}
+
+.infographic div:nth-child(15){
+    top: 68.5vw;
+    left: 10.6vw;
+}
+
+.infographic div:nth-child(16){
+    top: 72.9vw;
+    left: 6.8vw;
+}
+
+.infographic div:nth-child(17){
+    top: 78.2vw;
+    left: 5.6vw;
+}
+
+.infographic div:nth-child(18){
+    top: 79.3vw;
+    left: 6.8vw;
+}
+
+.infographic div:nth-child(19){
+    top: 80.9vw;
+    left: 5.3vw;
+}
+
+.infographic div:nth-child(20){
+    top: 84.3vw;
+    left: 7.9vw;
+}
+
+.infographic div:nth-child(21){
+    top: 87.6vw;
+    left: 8.6vw;
+}
+
+.infographic div:nth-child(22){
+    top: 88.7vw;
+    left: 11.5vw;
+}
+
+.infographic div:nth-child(23){
+    top: 91.5vw;
+    left: 9.2vw;
+}
+
+.infographic div:nth-child(24){
+    top: 93.9vw;
+    left: 4.7vw;
+}
 /*
 .infographic > div{
     background-color: black;
