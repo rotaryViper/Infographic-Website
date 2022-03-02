@@ -15,7 +15,7 @@ html{
 
 /*Infographic Start*/
 .infographic{
-    position: relative;
+    position: absolute;
     width: 55vw;
     height: 137.5vw;
     top: 3rem;
@@ -30,7 +30,7 @@ html{
 }
 
 .infographic .infographicPDF{
-    position: relative;
+    position: absolute;
     top: 5.5vw;
     left: 46.5vw;
     width: 2.5vw;
@@ -38,7 +38,7 @@ html{
 }
 
 .infographic div{
-    position: relative;
+    position: absolute;
     width: 1.1vw;
     height: 1.1vw;
 }
