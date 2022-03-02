@@ -17,3 +17,9 @@ function contentPosition(cssClass, width, height, top, left){
 contentPosition('infographic', res*0.55, (res*0.55)*2.5, 3, 0)
 contentPosition('rightBar', res*0.45, (res*0.55)*2.5, 3, res*0.55)
 */
+
+"use strict"
+
+var nodeList = document.body.infographic.childNodes;
+
+console.log(nodeList)
