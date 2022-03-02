@@ -154,6 +154,11 @@ html{
     top: 93.9vw;
     left: 4.7vw;
 }
+
+.infographic div:nth-child(25){
+    top: 46.8vw;
+    left: 37.6vw;
+}
 /*
 .infographic > div{
     background-color: black;
