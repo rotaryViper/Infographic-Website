@@ -30,11 +30,15 @@ body {
 
 p {
     font-size:80px;
-    padding-left: 33%;
-    padding-right:33%;
     text-align:center;
 }
-
+.context {
+    text-align:center;
+    padding-top: 25px;
+    padding-right: 25%;
+    padding-bottom: 15px;
+    padding-left: 25%;
+}
 h1 {
     font-size: 150px;
     text-align: center;
