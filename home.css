@@ -29,7 +29,7 @@ p {
 
 h1 {
     font-size: 150px;
-    text-align: left;
+    text-align: center;
 }
 
 h2 {
@@ -50,7 +50,7 @@ hr {
 }
 
 hr:after {
-    background: rgb(255,255,255);
+    background: #faf1e2;
     padding: 0 4px;
     position: relative;
     top: -13px;
@@ -59,7 +59,7 @@ hr:after {
 .container {
     position: relative;
     text-align: center;
-    color: rgba(252, 252, 252, 0.8)
+    color: #faf1e2
 }
 
 .centered {
