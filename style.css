@@ -7,45 +7,6 @@ html{
     font-family: "aileron";
 }
 
-/* Top Bar Start*/
-.topBar{
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3rem;
-    background-color: rgb(226, 207, 194);
-
-    z-index: 2;
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    text-align: center;
-
-    font-family: aileron, 'Times New Roman', serif;
-}
-
-/*Icon Properties*/
-
-.icon{
-    width: 2rem;
-    height: 2rem;
-}
-
-.topBar a {
-    align-self: center;
-}
-
-.topBar a:first-child {
-    transform: translateX(1rem);
-}
-.topBar a:last-child {
-    transform: translateX(-1rem);
-}
-/*Top Bar End
-
 Infographic Start*/
 .infographic{
     position: absolute;
