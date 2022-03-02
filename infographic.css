@@ -1,0 +1,225 @@
+html{
+    background-color:rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "aileron";
+}
+
+/*Infographic Start*/
+.infographic{
+    position: absolute;
+    width: 55vw;
+    height: 137.5vw;
+    top: 3rem;
+    left: 0;
+}
+
+.infographic > img {
+    width: 100%;
+    image-rendering: smooth, auto;
+}
+
+.infographic .infographicPDF{
+    position: absolute;
+    top: 5.5vw;
+    left: 46.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.infographic div{
+    position: absolute;
+    width: 1.1vw;
+    height: 1.1vw;
+}
+
+.infographic div:nth-child(1){
+    top: 2.2vw;
+    left: 0.9vw;
+}
+
+.infographic div:nth-child(2){
+    top: 27.9vw;
+    left: 3vw;
+}
+
+.infographic div:nth-child(3){
+    top: 30.3vw;
+    left: 11.2vw;
+}
+
+.infographic div:nth-child(4){
+    top: 33.5vw;
+    left: 8vw;
+}
+
+.infographic div:nth-child(5){
+    top: 37.7vw;
+    left: 20.1vw;
+}
+
+.infographic div:nth-child(6){
+    top: 39.2vw;
+    left: 19.6vw;
+}
+
+.infographic div:nth-child(7){
+    top: 43.2vw;
+    left: 5.5vw;
+}
+
+.infographic div:nth-child(8){
+    top: 45.2vw;
+    left: 5.8vw;
+}
+
+.infographic div:nth-child(9){
+    top: 46.2vw;
+    left: 10.6vw;
+}
+
+.infographic div:nth-child(10){
+    top: 49vw;
+    left: 11.8vw;
+}
+
+.infographic div:nth-child(11){
+    top: 50.3vw;
+    left: 8.4vw;
+}
+
+.infographic div:nth-child(12){
+    top: 54.8vw;
+    left: 6.8vw;
+}
+
+.infographic div:nth-child(13){
+    top: 62.8vw;
+    left: 4.6vw;
+}
+
+.infographic div:nth-child(14){
+    top: 67.2vw;
+    left: 14.1vw;
+}
+
+.infographic div:nth-child(15){
+    top: 68.5vw;
+    left: 10.6vw;
+}
+
+.infographic div:nth-child(16){
+    top: 72.9vw;
+    left: 6.8vw;
+}
+
+.infographic div:nth-child(17){
+    top: 78.2vw;
+    left: 5.6vw;
+}
+
+.infographic div:nth-child(18){
+    top: 79.3vw;
+    left: 6.8vw;
+}
+
+.infographic div:nth-child(19){
+    top: 80.9vw;
+    left: 5.3vw;
+}
+
+.infographic div:nth-child(20){
+    top: 84.3vw;
+    left: 7.9vw;
+}
+
+.infographic div:nth-child(21){
+    top: 87.6vw;
+    left: 8.6vw;
+}
+
+.infographic div:nth-child(22){
+    top: 88.7vw;
+    left: 11.5vw;
+}
+
+.infographic div:nth-child(23){
+    top: 91.5vw;
+    left: 9.2vw;
+}
+
+.infographic div:nth-child(24){
+    top: 93.9vw;
+    left: 4.7vw;
+}
+/*
+.infographic > div{
+    background-color: black;
+    z-index: 2;
+}
+*/
+/*Infographic End
+
+Right Bar Start*/
+
+.rightBar{
+    position: fixed;
+    width: 45vw;
+    height: 137.5vw;
+    top: 3rem;
+    left: 55vw;
+    background-color: blanchedalmond;
+}
+
+.rightBar .title{
+    font-size: 2.5rem;
+}
+
+.rightBar .text{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Right Bar End*/
+
+/*Debugging*/
+.topBar a:hover {
+	background: #ddd;
+	color: black;
+}
+
+.infographic a, .infographic div{
+    background-color: black;
+    z-index: 1;
+    opacity: 0.5;
+}
+/*
+.topBar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+*/
+
+/*Color and Background and Text*/
+ .intro {
+     text-align: left;
+     font-size: 11px;
+     color: rgb(165, 86, 86);
+ }
+/*Contents and Body*/
+
+/*Theme and Organising*/
+
+/*Hover and Expand*/
+
+/*Contents bar & on the right*/
+
+/*Footer: credits and references*/
+
