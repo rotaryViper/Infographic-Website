@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'IBM Plex Mono', monospace;
+    src: url(https://fonts.google.com/share?selection.family=IBM%20Plex%20Mono:wght@100)
+}
+
 body {
-    background-color: rgba(253, 247, 226, 0.809);
+    background-color: #faf1e2;
+    font-family: "IBM Plex Mono";
 }
 
 .item1 { grid-area: header;}
@@ -16,20 +22,26 @@ body {
 }
 
 .grid-container > div {
-    background-color: rgba(253, 247, 226, 0.809);
+    background-color: #faf1e2;
     text-align: left;
     padding: 20px 0;
     font-size: 30px;
 }
 
 p {
-    font-size:20px;
+    font-size:30px;
     text-align:center;
 }
-
+.context {
+    text-align:center;
+    padding-top: 25px;
+    padding-right: 20%;
+    padding-bottom: 15px;
+    padding-left: 20%;
+}
 h1 {
     font-size: 150px;
-    text-align: left;
+    text-align: center;
 }
 
 h2 {
@@ -50,7 +62,7 @@ hr {
 }
 
 hr:after {
-    background: rgb(255,255,255);
+    background: #faf1e2;
     padding: 0 4px;
     position: relative;
     top: -13px;
@@ -59,14 +71,15 @@ hr:after {
 .container {
     position: relative;
     text-align: center;
-    color: rgba(252, 252, 252, 0.8)
+    color: #faf1e2
 }
 
 .centered {
+    color:black;
     position: absolute;
     top: 50%;
     right: 50%;
-    transform: translate (-50%, -50%);
+    transform: translate (-30%, -70%);
 }
 
 .navbar {
@@ -74,8 +87,17 @@ hr:after {
 	background-color: rgb(240, 229, 229);
 	position: fixed;
 	top: 0;
+    left:0;
 	width: 100%;
+    justify-content: space-evenly;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
 }
+
+
   
 .navbar a {
 	float: left;
@@ -85,7 +107,10 @@ hr:after {
 	padding: 25px 30px;
 	text-decoration: none;
 	font-size: 20px;
+    align-self: center;
+
 }
-.active {
-	background-color: rgba(46, 61, 75, 0.679)
+
+.image {
+    padding: 50%;
 }
