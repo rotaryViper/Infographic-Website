@@ -89,7 +89,7 @@ input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     z-index: 99;
     height: 100%;
     width: 100%;
