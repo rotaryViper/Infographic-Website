@@ -29,7 +29,9 @@ body {
 }
 
 p {
-    font-size:40px;
+    font-size:80px;
+    padding-left: 33%;
+    padding-right:33%;
     text-align:center;
 }
 
