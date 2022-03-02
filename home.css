@@ -16,7 +16,7 @@ body {
 }
 
 .grid-container > div {
-    background-color: rgba(253, 247, 226, 0.809);
+    background-color: #faf1e2;
     text-align: left;
     padding: 20px 0;
     font-size: 30px;
@@ -63,10 +63,11 @@ hr:after {
 }
 
 .centered {
+    color:black;
     position: absolute;
     top: 50%;
     right: 50%;
-    transform: translate (-50%, -50%);
+    transform: translate (-30%, -70%);
 }
 
 .navbar {
@@ -75,6 +76,7 @@ hr:after {
 	position: fixed;
 	top: 0;
 	width: 100%;
+    justify-content: space-evenly;
 }
   
 .navbar a {
