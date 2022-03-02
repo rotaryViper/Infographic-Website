@@ -20,8 +20,6 @@ html{
     height: 137.5vw;
     top: 3rem;
     left: 0;
-
-    --firstText: url()'August 1 2021 - The ascend of prices and the market value of NFTs begins to increase, as the market price of the NFTs reach almost 2 Billion USD by the end of the month. This was the beginning of the NFT empire, that ruled the media for the next year. The top NFT collection, CryptoPunk, began selling for an average of 2.5 Million USD.'
 }
 
 .infographic > img {
@@ -100,6 +98,10 @@ html{
 .infographic div:nth-child(4){
     top: 33.5vw;
     left: 8vw;
+}
+
+.infographic div:nth-child(4):hover ~ .hoverBox::after{
+    content: var(--firstText);
 }
 
 .infographic div:nth-child(5){
