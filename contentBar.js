@@ -1,4 +1,5 @@
-this.$slideOut = $('#slideOut');
+this.$slideOut = 
+$('#slideOut');
 
 // Slideout show
 this.$slideOut.find('.slideOutTab').on('click', function() {
