@@ -110,3 +110,7 @@ hr:after {
     align-self: center;
 
 }
+
+.image {
+    padding: 50%;
+}
