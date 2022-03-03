@@ -253,7 +253,7 @@ Right Bar Start*/
     background-color: transparent;
 
     padding-left: 1vw;
-    padding-right: 2vw;
+    padding-right: 2rem;
 }
 
 .text{
@@ -302,6 +302,8 @@ Display text when hovered*/
 .credits {
     text-align: center;
     font-size: 41px;
+    padding-left: 20%;
+    padding-right:20%;
 }
 /*me and Organising*/
 
