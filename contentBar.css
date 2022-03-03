@@ -140,6 +140,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .content, .conclusion, .credits{
     position: fixed;
+    width: 45vw;
+    height: 137.5vw;
+    top: 3rem;
+    left: 55vw;
     opacity: 0;
     transition-duration: 0.5s;
 }
