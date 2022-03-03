@@ -31,7 +31,7 @@ body {
 #sidebarMenu {
     height: 100%;
     position: fixed;
-    top: -1rem;
+    top: 1.5 rem;
     z-index: 9;
     left: 0;
     width: 250px;
@@ -60,7 +60,7 @@ body {
     color: rgba(255, 255, 255, 0.50);
 }
 .sidebarMenuInner li a{
-    color: black;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
