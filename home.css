@@ -1,1 +1,116 @@
-@font-face{font-family:'IBM Plex Mono',monospace;src:url(https://fonts.google.com/share?selection.family=IBM%20Plex%20Mono:wght@100)}body{background-color:transparent;font-family:"IBM Plex Mono"}.item1{grid-area:header}.item3{grid-area:main}.item5{grid-area:footer}.grid-container{display:grid;grid-template-areas:'header header header header header header header' 'main main main main main main main' 'footer footer footer footer footer footer footer';padding:10px}.grid-container>div{background-color:transparent;text-align:left;padding:20px 0;font-size:30px}p{font-size:30px;text-align:center}.context{text-align:center;padding-top:25px;padding-right:20%;padding-bottom:15px;padding-left:20%}h1{font-size:150px;text-align:center}h2{font-size:50px;text-align:center}h3{font-size:20px;text-align:center}hr{border:none;border-top:3px double;overflow:visible;text-align:center;height:5px}hr:after{background:transparent;padding:0 4px;position:relative;top:-13px}.container{position:relative;text-align:center;color:#faf1e2}.centered{color:#000;position:absolute;top:50%;right:50%;transform:translate (-30%,-70%)}.navbar{overflow:hidden;background-color:rgb(218,121,197);position:fixed;top:0;left:0;width:100%;justify-content:space-evenly;display:flex;flex-flow:row wrap;justify-content:space-between;text-align:center}.navbar a{float:left;display:block;color:#000;text-align:center;padding:25px 30px;text-decoration:none;font-size:20px;align-self:center}.image{padding:50%}
+@font-face {
+    font-family: 'IBM Plex Mono', monospace;
+    src: url(https://fonts.google.com/share?selection.family=IBM%20Plex%20Mono:wght@100);
+}
+
+body {
+    background-color: transparent;
+    font-family: "IBM Plex Mono";
+}
+
+.item1 { grid-area: header;}
+.item3 { grid-area: main;}
+.item5 { grid-area: footer;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header header'
+        'main main main main main main main'
+        'footer footer footer footer footer footer footer';
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: transparent;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+p {
+    font-size:30px;
+    text-align:center;
+}
+.context {
+    text-align:center;
+    padding-top: 25px;
+    padding-right: 20%;
+    padding-bottom: 15px;
+    padding-left: 20%;
+}
+h1 {
+    font-size: 150px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-align:center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align:center;
+}
+hr {
+    border: none;
+    border-top: 3px double ;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: transparent;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #faf1e2
+}
+
+.centered {
+    color:black;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate (-30%, -70%);
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: rgb(240, 229, 229);
+	position: fixed;
+	top: 0;
+    left:0;
+	width: 100%;
+    justify-content: space-evenly;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+  
+.navbar a {
+	float: left;
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 25px 30px;
+	text-decoration: none;
+	font-size: 20px;
+    align-self: center;
+
+}
+
+.image {
+    padding: 50%;
+}
