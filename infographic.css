@@ -245,7 +245,7 @@ html{
 Right Bar Start*/
 
 .rightBar{
-    position: absolute;
+    position: fixed;
     width: 45vw;
     height: 137.5vw;
     top: 3rem;
@@ -262,7 +262,7 @@ Right Bar Start*/
     font-size: calc(1vw + 0.2rem);
     font-family: 'Times New Roman', Times, serif;
     padding: 1vw;
-    position: absolute;
+    position: fixed;
     width: 44vw;
 
 }
