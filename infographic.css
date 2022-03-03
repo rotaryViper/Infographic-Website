@@ -245,24 +245,22 @@ html{
 Right Bar Start*/
 
 .rightBar{
-    position: fixed;
+    position: absolute;
     width: 45vw;
     height: 137.5vw;
     top: 3rem;
     left: 55vw;
     background-color: transparent;
-}
 
-.rightBar .title{
-    width: 45vw;
-    font-size: calc(2vw + 1rem);
+    padding-left: 1vw;
+    padding-right: 2vw;
 }
 
 .text{
     font-size: calc(1vw + 0.2rem);
     font-family: 'Times New Roman', Times, serif;
     padding: 1vw;
-    position: fixed;
+    position: absolute;
     width: 44vw;
 
 }
@@ -298,16 +296,12 @@ Display text when hovered*/
  .intro , .content, .conclusion{
      text-align: center;
      font-size: 40px;
-     color: rgb(165, 86, 86);
-     background: linear-gradient(180deg, rgb(218, 121, 197) 0%, #faf1e2 100%);
  }
 /*Contents and Body*/
 
 .credits {
     text-align: center;
     font-size: 41px;
-    color: rgb(165, 86, 86);
-    background: linear-gradient(180deg, rgb(218, 121, 197) 0%, #faf1e2 100%);
 }
 /*me and Organising*/
 
