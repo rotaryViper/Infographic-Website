@@ -245,7 +245,7 @@ html{
 Right Bar Start*/
 
 .rightBar{
-    position: fixed;
+    position: absolute;
     width: 45vw;
     height: 137.5vw;
     top: 3rem;
@@ -262,7 +262,7 @@ Right Bar Start*/
     font-size: calc(1vw + 0.2rem);
     font-family: 'Times New Roman', Times, serif;
     padding: 1vw;
-    position: fixed;
+    position: absolute;
     width: 44vw;
 
 }
@@ -297,7 +297,7 @@ Display text when hovered*/
 /*Color and Background and Text*/
  .intro , .content, .conclusion{
      text-align: center;
-     font-size: 11px;
+     font-size: 40px;
      color: rgb(165, 86, 86);
      background: linear-gradient(180deg, rgb(218, 121, 197) 0%, #faf1e2 100%);
  }
@@ -305,7 +305,7 @@ Display text when hovered*/
 
 .credits {
     text-align: center;
-    font-size: 9px;
+    font-size: 41px;
     color: rgb(165, 86, 86);
     background: linear-gradient(180deg, rgb(218, 121, 197) 0%, #faf1e2 100%);
 }
