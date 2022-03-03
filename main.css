@@ -46,22 +46,22 @@ html{
     transition-duration: 0.5s;
 }
 
-.infographic .hoverHover2:hover ~ .hoverText2{
+.infographic .hoverBox2:hover ~ .hoverText2{
     opacity: 1;
     transition-duration: 0.5s;
 }
 
-.infographic .hoverHover3:hover ~ .hoverText3{
+.infographic .hoverBox3:hover ~ .hoverText3{
     opacity: 1;
     transition-duration: 0.5s;
 }
 
-.infographic .hoverHover4:hover ~ .hoverText4{
+.infographic .hoverBox4:hover ~ .hoverText4{
     opacity: 1;
     transition-duration: 0.5s;
 }
 
-.infographic .hoverHover5:hover ~ .hoverText5{
+.infographic .hoverBox5:hover ~ .hoverText5{
     opacity: 1;
     transition-duration: 0.5s;
 }
