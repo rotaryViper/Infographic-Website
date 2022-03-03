@@ -31,7 +31,7 @@ body {
 #sidebarMenu {
     height: 100%;
     position: fixed;
-    top: 1.5 rem;
+    top: 20px;
     z-index: 9;
     left: 0;
     width: 250px;
