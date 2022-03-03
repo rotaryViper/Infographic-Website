@@ -139,11 +139,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 
 .content, .conclusion, .credits{
+    position: fixed;
     opacity: 0;
     transition-duration: 0.5s;
 }
 
-.sidebarMenuInner:nth-child(3):active .content{
+.sidebarMenuInner:nth-child(3):hover .content{
     opacity: 1;
     transition-duration: 0.5s;
     z-index: 3;
