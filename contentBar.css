@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     display: block;
     height: 100%;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .mainInner{
     display: table;
@@ -38,7 +38,7 @@ body {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, rgb(218, 121, 197) 0%, #faf1e2 100%);
+    background: linear-gradient(180deg, rgb(226, 207, 194) 0%, #faf1e2 100%);
 }
 .sidebarMenuInner{
     margin:0;
@@ -47,7 +47,7 @@ body {
 }
 .sidebarMenuInner li{
     list-style: none;
-    color: black;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px;
@@ -83,7 +83,7 @@ input[type=checkbox] {
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 10px;
+    top: 22px;
     left: 15px;
     height: 22px;
     width: 22px;
