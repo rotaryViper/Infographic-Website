@@ -260,7 +260,7 @@ Right Bar Start*/
     font-size: calc(1vw + 0.2rem);
     font-family: 'Times New Roman', Times, serif;
     padding: 1vw;
-    position: absolute;
+    position: fixed;
     width: 44vw;
 
 }
