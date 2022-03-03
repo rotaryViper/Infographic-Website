@@ -148,19 +148,19 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transition-duration: 0.5s;
 }
 
-.sidebarMenuInner:nth-child(3):hover .content{
+.sidebarMenuInner:nth-child(3):active ~ .content{
     opacity: 1;
     transition-duration: 0.5s;
     z-index: 3;
 }
 
-.sidebarMenuInner:nth-child(4):active .conclusion{
+.sidebarMenuInner:nth-child(4):active ~ .conclusion{
     opacity: 1;
     transition-duration: 0.5s;
     z-index: 3;
 }
 
-.sidebarMenuInner:nth-child(5):active .credits{
+.sidebarMenuInner:nth-child(5):active ~ .credits{
     opacity: 1;
     transition-duration: 0.5s;
     z-index: 3;
