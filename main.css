@@ -67,7 +67,10 @@ html{
     height: 137.5vw;
     top: 3rem;
     left: 55vw;
-    background-color: transparent;
+    background-image: url(nier-grid.png);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: cover;
     z-index: 4;
     opacity: 0;
     transition-duration: 0.5s;
