@@ -22,7 +22,7 @@ body {
 }
 
 .grid-container > div {
-    background-color: #faf1e2;
+    background-color: transparent;
     text-align: left;
     padding: 20px 0;
     font-size: 30px;
@@ -62,7 +62,7 @@ hr {
 }
 
 hr:after {
-    background: #faf1e2;
+    background: transparent;
     padding: 0 4px;
     position: relative;
     top: -13px;
