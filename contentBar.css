@@ -38,12 +38,12 @@ body {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, rgb(218, 121, 197) 0%, #faf1e2 100%);
+    background: linear-gradient(180deg, rgb(95, 94, 94) 0%, #faf1e2 100%);
 }
 .sidebarMenuInner{
     margin:0;
     padding:0;
-    border-top: 1px solid rgba(255, 255, 255, 0.10);
+    border-top: 1px solid rgb(95, 94, 94);
 }
 .sidebarMenuInner li{
     list-style: none;
@@ -52,7 +52,7 @@ body {
     font-weight: bold;
     padding: 20px;
     cursor: pointer;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    border-bottom: 1px solid rgb(95, 94, 94);
 }
 .sidebarMenuInner li span{
     display: block;
