@@ -75,7 +75,7 @@ hr:after {
 }
 
 .centered {
-    color:white;
+    color:black;
     position: absolute;
     top: 50%;
     right: 50%;
@@ -103,7 +103,7 @@ hr:after {
 .navbar a {
 	float: left;
 	display: block;
-	color: #000000;
+	color: white;
 	text-align: center;
 	padding: 25px 30px;
 	text-decoration: none;
