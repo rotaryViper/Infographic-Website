@@ -85,6 +85,7 @@ hr:after {
 .navbar {
 	overflow: hidden;
 	background-color: rgb(95, 94, 94);
+    color: white;
 	position: fixed;
 	top: 0;
     left:0;
